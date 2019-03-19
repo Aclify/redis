@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/Aclify/redis/issues"
   },
-  "homepage": "https://github.com/Aclify/redis#readme"
+  "homepage": "https://github.com/Aclify/redis#readme",
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/redis": "^2.8.11"
+  },
+  "peerDependencies": {
+    "@aclify/aclify": "^1.8.0"
+  }
 }
